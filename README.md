@@ -215,7 +215,7 @@ where x is a randomized character
 __Output url with example value 6__: `http://localhost/xxxx`,
 where is a randomized character
 
-__Default value:__ 4
+__Default value:__ 6
 
 -------------------------------------------------------------------------------
 
