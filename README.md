@@ -1,7 +1,7 @@
 gofiche
 =====
 
-[fork of fiche](https://github.com/solusipse/fiche)
+[fork of fiche](https://github.com/solusipse/fiche)(https://github.com/solusipse/fiche)
 
 Command line pastebin for sharing terminal output that also serves
 back a gopher URL if -g is set.
