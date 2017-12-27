@@ -200,7 +200,7 @@ void fiche_init(Fiche_Settings *settings) {
         // port
         9999,
         // slug length
-        4,
+        6,
         // https
         false,
         // buffer length
