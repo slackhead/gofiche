@@ -1,5 +1,5 @@
 /*
-Fiche - Command line pastebin for sharing terminal output.
+Gofiche - Command line pastebin for sharing terminal output.
 
 -------------------------------------------------------------------------------
 

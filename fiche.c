@@ -294,7 +294,7 @@ static void print_error(const char *format, ...) {
     va_list args;
     va_start(args, format);
 
-    printf("[Fiche][ERROR] ");
+    printf("[Gofiche][ERROR] ");
     vprintf(format, args);
     printf("\n");
 
@@ -306,7 +306,7 @@ static void print_status(const char *format, ...) {
     va_list args;
     va_start(args, format);
 
-    printf("[Fiche][STATUS] ");
+    printf("[Gofiche][STATUS] ");
     vprintf(format, args);
     printf("\n");
 
