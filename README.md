@@ -176,7 +176,7 @@ gofiche -d subdomain.domain.com
 gofiche -d subdomain.domain.com/some_directory
 ```
 
-__Default value:__ `localhost`
+__Default value:__ `NULL`
 
 -------------------------------------------------------------------------------
 
