@@ -134,8 +134,7 @@ To use gofiche (as a client) you have to have netcat installed. You probably alr
 usage: gofiche [-D6epsdSolBug].
              [-d domain] [-p port] [-s slug size]
              [-o output directory] [-B buffer size] [-u user name]
-             [-l log file] [-S]
-						 [-g gopher domain]
+             [-l log file] [-S] [-g gopher domain]
 ```
 
 These are command line arguments. You don't have to provide any of them to run the application. Default settings will be used in such case. See section below for more info.
