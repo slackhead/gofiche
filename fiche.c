@@ -194,7 +194,7 @@ void fiche_init(Fiche_Settings *settings) {
 
     struct Fiche_Settings def = {
         // domain
-        "example.com",
+        NULL,
         // output dir
         "code",
         // port
@@ -370,6 +370,14 @@ static int set_domain_name(Fiche_Settings *settings) {
     } else {
         prefix = "http://";
     }
+
+		if (settings->domain == NULL && settings->godomain != NULL)
+		{
+			prefix = "";
+			settings->domain = settings->godomain;
+			settings->godomain = NULL;
+		}
+
     const int len = strlen(settings->domain) + strlen(prefix) + 1;
 
     char *b = malloc(len);
